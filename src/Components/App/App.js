@@ -41,13 +41,14 @@ class App extends React.Component {
     let tracks = this.state.playlistTracks;
     if(tracks.find(el => el.id === track.id)) {
       return; //returns the function if the element in the array's id value === the argument track.id
-    }
+    } else {
     //else add the track to the array and set state of playlistTracks to this.state.playlistTracks
     tracks.push(track);
     this.setState(
       {playlistTracks: tracks}
     );
   }
+}
 
   removeTrack(track) {
     let tracks = this.state.playlistTracks;

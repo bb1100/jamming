@@ -80,11 +80,11 @@ const Spotify = {
                     //see spotify api endpoint reference 'Search' 'Track Object - Full' for these 
                     //eg artists is an array of artist objects. Here we list the first artist's name prop in the array
                      
-                        ID: track.id,
-                        Name: track.name,
-                        Artist: track.artists[0].name,
-                        Album: track.album.name,
-                        URI: track.uri
+                        id: track.id,
+                        name: track.name,
+                        artist: track.artists[0].name,
+                        album: track.album.name,
+                        uri: track.uri
                     })
                 );
                 
