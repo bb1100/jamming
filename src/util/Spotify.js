@@ -1,6 +1,7 @@
 const clientId = '';
-const redirectURI = "http://jamming_playlist_maker.surge.sh";
+//const redirectURI = "http://jamming_playlist_maker.surge.sh";
 //const redirectURI = 'http://localhost:3000';
+const redirectURI = "https://jamming-playlist-maker.netlify.app";
 
 //If the user grants access, the final URL will contain a hash fragment with the following data encoded as a query string. For example:
 //const exampleUrlFromSpotify = 'https://example.com/callback#access_token=NwAExz...BV3O2Tk&token_type=Bearer&expires_in=3600&state=123';
